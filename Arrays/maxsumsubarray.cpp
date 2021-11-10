@@ -19,7 +19,6 @@ int main(){
         for(int j=i;j<n;j++){
             int currentsum=0;
             currentsum= cumsum[j] - cumsum[i-1];
-
             if(currentsum>maxsum){
                 maxsum=currentsum;
                 left=i;
